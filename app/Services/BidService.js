@@ -2,7 +2,7 @@ import Store from "../store.js";
 
 class BidService {
   constructor() {
-    console.log("hello from bid service");
+    // console.log("hello from bid service");
   }
 }
 

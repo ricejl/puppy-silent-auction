@@ -11,8 +11,8 @@ export default class Bid {
   get Template() {
     return `
               <dl>
-            <dt>Bid: ${this.bidAmt}</dt>
-            <dd>Bidder ${this.bidder}</dd>
+            <dt>Bid: $${this.bidAmt}</dt>
+            <dd>${this.bidder}</dd>
           </dl>
       `;
   }
